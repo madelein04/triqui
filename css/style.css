@@ -121,11 +121,11 @@ button {
     color: var(--color00-);
     padding: 5px;
     margin: 25px auto 0;
+    cursor: pointer;
 }
 
 button:focus {
     background: var(--color02-);
-    cursor: pointer;
 }
 
 .activeBox {
