@@ -125,6 +125,7 @@ button {
 
 button:focus {
     background: var(--color02-);
+    cursor: pointer;
 }
 
 .activeBox {
