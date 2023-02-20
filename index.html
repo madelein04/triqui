@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/css/pngtree-tic-tac-toe-game-play-png-image_5158568.png" type="image/x-icon">
+    <title>Triqui</title>
+</head>
+<body>
+    <h1>Triqui</h1>
+    <div id="container">
+        <div class="line">
+                <div id="box1" class="box top left ">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+                <div id="box2" class="box  left">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+                <div id="box3" class="box  bottom left">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+        </div>
+
+        <div class="line ">
+                <div id="box4" class="box top ">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+                <div id="box5" class="box  ">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+                <div id="box6" class="box  bottom">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+        </div>
+
+        <div class="line">
+                <div id="box7" class="box top right">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+                <div id="box8" class="box right ">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+                <div id="box9" class="box bottom right">
+                    <span data-player="none" onclick="play(this)">&nbsp;</span>
+                </div>
+
+        </div>
+    </div>
+    <div class="mode">
+
+        <div class="moon-sun"></div>
+        
+        <ion-icon name="moon-outline" class="bx bx-moon icon moon"></ion-icon>
+        <ion-icon name="sunny-outline" class="bx bx-sun icon sun"></ion-icon>
+        
+        <div class="toogle-switch">
+            <span class="switch">
+            </span>
+        </div>
+        </div>
+    </div>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/js/main.js  "></script>
+</body>
+</html>
